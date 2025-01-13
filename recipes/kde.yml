@@ -1,0 +1,9 @@
+# Install Misc KDE Packages
+modules:
+  - type: rpm-ostree
+    repos:
+      # Klassy Theme
+      - https://download.opensuse.org/repositories/home:paul4us/Fedora_%OS_VERSION%/home:paul4us.repo
+    install:
+      - klassy
+      - smb4k

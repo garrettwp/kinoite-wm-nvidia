@@ -1,0 +1,21 @@
+# Install fonts
+modules:
+  - type: rpm-ostree
+    install:
+      - fontawesome-6-free-fonts
+
+  - type: fonts
+    fonts:
+      nerd-fonts:
+      - FiraCode # don't add spaces or "Nerd Font" suffix.
+      - DroidSansMono
+      - Hack
+      - Iosevka
+      - SourceCodePro
+      - Terminus
+      - JetBrainsMono
+      - Noto
+      - NerdFontsSymbolsOnly
+      google-fonts:
+        - Roboto
+        - Open Sans

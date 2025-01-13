@@ -1,0 +1,26 @@
+# Install flatpaks
+modules:
+  - type: default-flatpaks
+    notify: true # Send notification after install/uninstall is finished (true/false)
+    system:
+      # If no repo information is specified, Flathub will be used by default
+      install:
+        - org.mozilla.firefox
+        - org.kde.gwenview
+        - org.kde.kcalc
+        - org.kde.okular
+        - org.kde.skanpage
+        - org.kde.kolourpaint
+        - com.brave.Browser
+        - app.devsuite.Ptyxis
+        - io.github.dvlv.boxbuddyrs
+        - com.github.tchx84.Flatseal
+        - io.github.flattool.Warehouse
+        - it.mijorus.gearlever
+        - io.missioncenter.MissionCenter
+        - org.gnome.seahorse.Application
+        - io.github.celluloid_player.Celluloid
+        - org.localsend.localsend_app
+        - org.remmina.Remmina
+        - com.github.wwmm.easyeffects
+    user: {} # Also add Flathub user repo, but no user packages

@@ -1,0 +1,8 @@
+# Install Sway Notification Manager
+modules:
+  - type: rpm-ostree
+    repos:
+      # Sway Notification Center COPR Repo
+      - https://copr.fedorainfracloud.org/coprs/erikreider/SwayNotificationCenter/repo/fedora-%OS_VERSION%/erikreider-SwayNotificationCenter-fedora-%OS_VERSION%.repo
+    install:
+      - SwayNotificationCenter

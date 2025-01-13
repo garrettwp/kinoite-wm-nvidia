@@ -1,0 +1,11 @@
+# Install Niri Window Manager
+modules:
+  - type: rpm-ostree
+    repos:
+      # Niri COPR Repo
+      #- https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/yalter/niri-git/repo/fedora-%OS_VERSION%/yalter-niri-git-fedora-%OS_VERSION%.repo
+    install:
+      - niri
+      - xdg-desktop-portal-gnome
+      - xdg-desktop-portal-gtk

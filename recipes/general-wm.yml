@@ -1,0 +1,12 @@
+# Install general Window Manager packages
+modules:
+  - type: rpm-ostree
+    install:
+      - waybar
+      - fuzzel
+      - pavucontrol
+      - brightnessctl
+      - playerctl
+      - network-manager-applet
+      - blueman
+      - wl-clipboard
