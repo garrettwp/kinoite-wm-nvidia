@@ -9,7 +9,6 @@ modules:
       - btop  
       - distrobox
       - neovim
-      - stow
       - fzf
       - zoxide
       - bat
