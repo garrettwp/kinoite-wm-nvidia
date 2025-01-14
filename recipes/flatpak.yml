@@ -22,7 +22,6 @@ modules:
     user:
       install:
         - com.brave.Browser
-        - com.github.tchx84.Flatseal
         - io.github.celluloid_player.Celluloid
         - org.localsend.localsend_app
         - org.remmina.Remmina
