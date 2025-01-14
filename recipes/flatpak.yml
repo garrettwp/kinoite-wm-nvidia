@@ -11,7 +11,6 @@ modules:
         - org.kde.okular
         - org.kde.skanpage
         - org.kde.kolourpaint
-        - com.brave.Browser
         - app.devsuite.Ptyxis
         - io.github.dvlv.boxbuddyrs
         - com.github.tchx84.Flatseal
@@ -19,8 +18,18 @@ modules:
         - it.mijorus.gearlever
         - io.missioncenter.MissionCenter
         - org.gnome.seahorse.Application
+    # Install flatpaks for user
+    user:
+      install:
+        - com.brave.Browser
+        - com.github.tchx84.Flatseal
         - io.github.celluloid_player.Celluloid
         - org.localsend.localsend_app
         - org.remmina.Remmina
         - com.github.wwmm.easyeffects
-    user: {} # Also add Flathub user repo, but no user packages
+        - md.obsidian.Obsidian
+        - me.proton.Pass
+        - io.github.alainm23.planify
+        - com.github.zocker_160.SyncThingy
+        - org.signal.Signal
+        - com.visualstudio.code
