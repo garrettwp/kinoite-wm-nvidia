@@ -1,4 +1,4 @@
-# kinoite-wm &nbsp; [![bluebuild build badge](https://github.com/garrettwp/kinoite-wm/actions/workflows/build.yml/badge.svg)](https://github.com/garrettwp/kinoite-wm/actions/workflows/build.yml)
+# kinoite-wm-nvidia &nbsp; [![bluebuild build badge](https://github.com/garrettwp/kinoite-wm-nvidia/actions/workflows/build.yml/badge.svg)](https://github.com/garrettwp/kinoite-wm-nvidia/actions/workflows/build.yml)
 
 Personal build based on Kinoite which adds additional Window Managers like [Niri](https://github.com/YaLTeR/niri) and [Hyprland](https://github.com/hyprwm/Hyprland) with a sprinkle of additional features.
 
@@ -37,5 +37,5 @@ If build on Fedora Atomic, you can generate an offline ISO with the instructions
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/garrettwp/kinoite-wm
+cosign verify --key cosign.pub ghcr.io/garrettwp/kinoite-wm-nvidia
 ```
