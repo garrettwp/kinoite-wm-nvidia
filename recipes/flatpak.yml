@@ -21,7 +21,7 @@ modules:
     # Install flatpaks for user
     user:
       install:
-        - com.brave.Browser
+        - app.zen_browser.zen
         - io.github.celluloid_player.Celluloid
         - org.localsend.localsend_app
         - org.remmina.Remmina
