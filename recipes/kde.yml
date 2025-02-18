@@ -5,5 +5,5 @@ modules:
       # Klassy Theme
       - https://download.opensuse.org/repositories/home:paul4us/Fedora_%OS_VERSION%/home:paul4us.repo
     install:
-      - klassy
+      #- klassy
       - smb4k
